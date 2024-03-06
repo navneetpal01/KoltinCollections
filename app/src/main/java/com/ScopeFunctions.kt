@@ -122,11 +122,11 @@ fun main(){
 
 
 /** TODO Summery
- * with -> if you want to operate on a non null object
- * let -> if you want to just execute lambda expression on a nullable object and avoid NullPointerException
- * run -> if you want to operate on a nullable object,execute lambda expression and avoid NullPointerException
- * apply -> If you want to initialise or configure an object
- * also -> if you want to do some additional object configuration or operations
+ * with -> if you want to operate on a non null object //Returns Lambda
+ * let -> if you want to just execute lambda expression on a nullable object and avoid NullPointerException //Returns Lambda
+ * run -> if you want to operate on a nullable object,execute lambda expression and avoid NullPointerException //Returns Lambda
+ * apply -> If you want to initialise or configure an object //Returns object
+ * also -> if you want to do some additional object configuration or operations //Returns object
  */
 
 
